@@ -65,35 +65,35 @@ const Navbar = () => {
                                 <ul className="navbar-nav m-auto">
 
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link href="/" activeClassName="active">
+                                            <a onClick={toggleNavbar} className="nav-link">
                                                 Home
                                             </a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link href="/services">
+                                            <a onClick={toggleNavbar} className="nav-link">
                                                 {`Products & Services`}
                                             </a>
                                         </Link>
     
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/services-3" activeClassName="active">
+                                                <Link href="/service-babble-connect" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Babble Connect</a>
                                                 </Link>
                                             </li> 
 
                                             <li className="nav-item">
-                                                <Link href="/services-3" activeClassName="active">
+                                                <Link href="/service-babble-envision" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Babble Envision</a>
                                                 </Link>
                                             </li> 
 
                                             <li className="nav-item">
-                                                <Link href="/services-3" activeClassName="active">
+                                                <Link href="/service-babble" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Babble Services</a>
                                                 </Link>
                                             </li> 
@@ -101,27 +101,27 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link href="/industries">
+                                            <a onClick={toggleNavbar} className="nav-link">
                                                 Industries
                                             </a>
                                         </Link>
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/case-study" activeClassName="active">
+                                                <Link href="/industry-manufacturing" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Manufacturing</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/case-study" activeClassName="active">
+                                                <Link href="/industry-automobile" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Automobile</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/case-study" activeClassName="active">
+                                                <Link href="/industry-healthcare" activeClassName="active">
                                                     <a onClick={toggleNavbar} className="nav-link">Health Care</a>
                                                 </Link>
                                             </li>
@@ -129,7 +129,7 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/about-us-2">
+                                        <Link href="/about-us">
                                             <a onClick={toggleNavbar} className="nav-link">
                                                 About Us
                                             </a>

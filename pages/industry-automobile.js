@@ -10,10 +10,10 @@ const CaseStudyDetails = () => {
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="Case Study Details" 
+                pageTitle="Automobile Industry" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Case Study Details"
+                activePageText="Industry Details"
             /> 
             <>
                 <div className="case-details-area ptb-100">

@@ -13,7 +13,7 @@ const ServicesDetails = () => {
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="Services Details" 
+                pageTitle="Babble Services" 
                 homePageUrl="/" 
                 homePageText="Home" 
                 activePageText="Services Details"

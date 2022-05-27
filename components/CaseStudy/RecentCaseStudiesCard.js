@@ -15,20 +15,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-1.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>Business Consulting</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
 
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>
@@ -40,20 +40,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-2.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>Financial Consulting for SmartGenics</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
                                     
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>
@@ -65,20 +65,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-3.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>Social Media Marketing</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
                                     
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>
@@ -90,20 +90,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-4.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>SEO Optimization</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
                                     
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>
@@ -115,20 +115,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-5.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>Advanced Analytics</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
                                     
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>
@@ -140,20 +140,20 @@ const RecentCaseStudiesCard = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-projects-box">
                                 <div className="projects-image">
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a><img src="/images/projects/projects-6.jpg" alt="image" /></a>
                                     </Link>
                                 </div>
 
                                 <div className="projects-content">
                                     <h3>
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>Email Marketing</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
                                     
-                                    <Link href="/case-study-details">
+                                    <Link href="/industry-details">
                                         <a className="projects-btn">
                                             Read More <i className="ri-arrow-right-line"></i>
                                         </a>

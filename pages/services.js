@@ -2,29 +2,27 @@ import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Link from 'next/link';
-import WorkProcess from '../components/Common/WorkProcess';
 import TechSupport from '../components/Common/TechSupport';
-import OurRespectiveClients from '../components/Common/OurRespectiveClients';
 import CTA from '../components/Common/CTA';
 import Footer from '../components/_App/Footer';
 
-const Services = () => {
+const ServicesThree = () => {
     return (
         <>
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="Services One" 
+                pageTitle="Products & Services" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Services One"
+                activePageText="Products & Services"
             /> 
-             
-            <div className="services-area pt-100 pb-70">
+ 
+            <div className="services-area bg-without-box-color pt-100 pb-70">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon">
                                     <i className="ri-quill-pen-line"></i>
                                 </div>
@@ -44,7 +42,7 @@ const Services = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon bg-36CC72">
                                     <i className="ri-pie-chart-line"></i>
                                 </div>
@@ -64,7 +62,7 @@ const Services = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon bg-FF414B">
                                     <i className="ri-lightbulb-line"></i>
                                 </div>
@@ -84,7 +82,7 @@ const Services = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon bg-FF6D3D">
                                     <i className="ri-customer-service-2-line"></i>
                                 </div>
@@ -104,7 +102,7 @@ const Services = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon bg-8932F8">
                                     <i className="ri-cloud-line"></i>
                                 </div>
@@ -124,7 +122,7 @@ const Services = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="single-services-item">
+                            <div className="single-services-box">
                                 <div className="icon bg-FFCA40">
                                     <i className="ri-layout-row-line"></i>
                                 </div>
@@ -159,79 +157,87 @@ const Services = () => {
                     <img src="/images/services/shape-4.png" alt="image" />
                 </div>
 
-                {/* Services Card Style */}
+                {/* Products & Services Style */}
                 <style jsx>{`
                     .services-area {
                         position: relative;
                         z-index: 1;
                         overflow: hidden;
                     }
-                    .single-services-item {
+                    .services-area.bg-without-box-color {
+                        background-color: var(--white-color);
+                    }
+                    
+                    .services-area.bg-without-box-color .single-services-box {
+                        background-color: var(--white-color);
+                        -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+                                box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+                    }
+                    .services-area.bg-box-color {
+                        background-color: #F4F8FC;
+                    }
+                    .single-services-box {
                         margin-bottom: 30px;
                         padding: 35px;
                         border-radius: 5px;
                         -webkit-transition: var(--transition);
                         transition: var(--transition);
-                        border: 1px solid #eeeeee;
+                        background-color: var(--white-color);
                         text-align: center;
                     }
-                    .single-services-item .icon {
+                    .single-services-box .icon {
                         margin-bottom: 30px;
                     }
-                    .single-services-item .icon i {
+                    .single-services-box .icon i {
                         display: inline-block;
                         height: 80px;
                         width: 80px;
                         line-height: 80px;
-                        background-color: #E5F0FF;
-                        color: var(--main-color);
+                        background-color: var(--main-color);
+                        color: var(--white-color);
                         text-align: center;
                         font-size: 45px;
                         border-radius: 5px;
                         -webkit-transition: var(--transition);
                         transition: var(--transition);
                     }
-                    .single-services-item .icon.bg-36CC72 i {
-                        background-color: #EBFAF1;
-                        color: #36CC72;
+                    .single-services-box .icon.bg-36CC72 i {
+                        background-color: #36CC72;
                     }
-                    .single-services-item .icon.bg-FF414B i {
-                        background-color: #FFECED;
-                        color: #FF414B;
+                    
+                    .single-services-box .icon.bg-FF414B i {
+                        background-color: #FF414B;
                     }
-                    .single-services-item .icon.bg-FF6D3D i {
-                        background-color: #FFF0EC;
-                        color: #FF6D3D;
+                    .single-services-box .icon.bg-FF6D3D i {
+                        background-color: #FF6D3D;
                     }
-                    .single-services-item .icon.bg-8932F8 i {
-                        background-color: #F3EBFE;
-                        color: #8932F8;
+                    .single-services-box .icon.bg-8932F8 i {
+                        background-color: #8932F8;
                     }
-                    .single-services-item .icon.bg-FFCA40 i {
-                        background-color: #FFFAEC;
-                        color: #FFCA40;
+                    .single-services-box .icon.bg-FFCA40 i {
+                        background-color: #FFCA40;
                     }
-                    .single-services-item h3 {
+                    .single-services-box h3 {
                         margin-bottom: 15px;
                         font-size: 25px;
                     }
-                    .single-services-item h3 a {
+                    .single-services-box h3 a {
                         color: var(--black-color);
                         -webkit-transition: var(--transition);
                         transition: var(--transition);
                     }
-                    .single-services-item p {
+                    .single-services-box p {
                         margin-bottom: 15px;
                         font-size: 15px;
                     }
-                    .single-services-item .services-btn {
+                    .single-services-box .services-btn {
                         font-size: 15px;
                         font-weight: 500;
                         position: relative;
                         -webkit-transition: var(--transition);
                         transition: var(--transition);
                     }
-                    .single-services-item .services-btn i {
+                    .single-services-box .services-btn i {
                         position: absolute;
                         right: -20px;
                         top: 50%;
@@ -239,36 +245,18 @@ const Services = () => {
                                 transform: translateY(-50%);
                         font-size: 15px;
                     }
-                    .single-services-item:hover {
+                    .single-services-box:hover {
                         background-color: var(--white-color);
                         -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
                                 box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
                         -webkit-transform: translateY(-10px);
                                 transform: translateY(-10px);
                     }
-                    .single-services-item:hover .icon i {
-                        background-color: var(--main-color);
-                        color: var(--white-color);
-                    }
-                    .single-services-item:hover .icon.bg-36CC72 i {
-                        background-color: #36CC72;
-                    }
-                    .single-services-item:hover .icon.bg-FF414B i {
-                        background-color: #FF414B;
-                    }
-                    .single-services-item:hover .icon.bg-FF6D3D i {
-                        background-color: #FF6D3D;
-                    }
-                    .single-services-item:hover .icon.bg-8932F8 i {
-                        background-color: #8932F8;
-                    }
-                    .single-services-item:hover .icon.bg-FFCA40 i {
-                        background-color: #FFCA40;
-                    }
-                    .single-services-item:hover h3 a {
+        
+                    .single-services-box:hover h3 a {
                         color: var(--main-color);
                     }
-                    .single-services-item:hover .services-btn {
+                    .single-services-box:hover .services-btn {
                         color: var(--main-color);
                         letter-spacing: 1px;
                     }
@@ -317,17 +305,17 @@ const Services = () => {
         
                     // Responsive Style
                     @media only screen and (max-width: 767px) {
-                        .single-services-item {
-                            padding: 30px 20px;
+                        .single-services-box {
+                            padding: 35px 15px;
                         }
-                        .single-services-item .icon {
+                        .single-services-box .icon {
                             margin-bottom: 25px;
                         }
-                        .single-services-item h3 {
+                        .single-services-box h3 {
                             font-size: 20px;
                             margin-bottom: 10px;
                         }
-                        .single-services-item p {
+                        .single-services-box p {
                             margin-bottom: 12px;
                         }
                         .services-shape-1, .services-shape-2, .services-shape-3, .services-shape-4, .services-shape-5 {
@@ -336,15 +324,11 @@ const Services = () => {
                     }
 
                     @media only screen and (min-width : 768px) and (max-width : 991px) {
-                        .single-services-item {
-                            padding: 30px 20px;
+                        .single-services-box {
+                            padding: 35px 15px;
                         }
-                        .single-services-item .icon {
-                            margin-bottom: 25px;
-                        }
-                        .single-services-item h3 {
+                        .single-services-box h3 {
                             font-size: 20px;
-                            margin-bottom: 15px;
                         }
                         .services-shape-1, .services-shape-2, .services-shape-3, .services-shape-4, .services-shape-5 {
                             display: none;
@@ -352,33 +336,27 @@ const Services = () => {
                     }
 
                     @media only screen and (min-width : 992px) and (max-width : 1199px) {
-                        .single-services-item {
-                            padding: 35px 15px;
+                        .single-services-box {
+                            padding: 35px 20px;
                         }
-                        .single-services-item h3 {
+                        .single-services-box h3 {
                             font-size: 20px;
                         }
                     }
 
                     @media only screen and (min-width : 1200px) and (max-width : 1399px) {
-                        .single-services-item {
+                        .single-services-box {
                             padding: 30px;
                         }
-                        .single-services-item h3 a {
+                        .single-services-box h3 a {
                             font-size: 24px;
                         }
                     }
                 `}</style>
-            </div> 
-
-            <div className="pb-100">
-                <WorkProcess />
             </div>
-            
+  
             <TechSupport />
 
-            <OurRespectiveClients />
-            
             <div className="ptb-100">
                 <CTA />
             </div>
@@ -388,4 +366,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default ServicesThree;

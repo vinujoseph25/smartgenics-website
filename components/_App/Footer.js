@@ -50,8 +50,8 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/case-study">
-                                            <a>Case Study</a>
+                                        <Link href="/industries">
+                                            <a>Industries</a>
                                         </Link>
                                     </li>
                                     <li>
@@ -143,8 +143,8 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/case-study">
-                                            <a>Case Study</a>
+                                        <Link href="/industries">
+                                            <a>Industries</a>
                                         </Link>
                                     </li>
                                     <li>

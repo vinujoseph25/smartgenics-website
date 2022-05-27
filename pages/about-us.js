@@ -15,10 +15,10 @@ const AboutUsTwo = () => {
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="About Us Two" 
+                pageTitle="About Us" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="About Us Two"
+                activePageText="About Us"
             /> 
 
             <FeaturesCard />

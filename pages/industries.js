@@ -11,10 +11,10 @@ const CaseStudy = () => {
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="Case Study" 
+                pageTitle="Industries" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Case Study"
+                activePageText="Industries"
             /> 
 
             <>
@@ -24,7 +24,7 @@ const CaseStudy = () => {
                             <div className="col-lg-6">
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-1.jpg" alt="image" />
                                             </a>
@@ -33,16 +33,16 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Branding</a>
                                             </Link>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Development</a>
                                             </Link>
                                         </div> 
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Product Branding and Web Development</a>
                                             </Link>
                                         </h3>
@@ -52,7 +52,7 @@ const CaseStudy = () => {
 
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-2.jpg" alt="image" />
                                             </a>
@@ -61,13 +61,13 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Business</a>
                                             </Link>
                                         </div> 
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Brand Identity and Mockup</a>
                                             </Link>
                                         </h3>
@@ -77,7 +77,7 @@ const CaseStudy = () => {
 
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-3.jpg" alt="image" />
                                             </a>
@@ -86,16 +86,16 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>App Design</a>
                                             </Link>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Development</a>
                                             </Link>
                                         </div> 
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Personal Portfolio Website Redesign</a>
                                             </Link>
                                         </h3>
@@ -107,7 +107,7 @@ const CaseStudy = () => {
                             <div className="col-lg-6">
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-4.jpg" alt="image" />
                                             </a>
@@ -116,13 +116,13 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Web Development</a>
                                             </Link>
                                         </div> 
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Banking Mobile iOS App Design</a>
                                             </Link>
                                         </h3>
@@ -132,7 +132,7 @@ const CaseStudy = () => {
 
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-5.jpg" alt="image" />
                                             </a>
@@ -141,13 +141,13 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>UI/IX Design</a>
                                             </Link>
                                         </div>
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Plod Website Design and Development</a>
                                             </Link>
                                         </h3>
@@ -157,7 +157,7 @@ const CaseStudy = () => {
 
                                 <div className="single-cases">
                                     <div className="cases-image">
-                                        <Link href="/case-study-details">
+                                        <Link href="/industry-details">
                                             <a>
                                                 <img src="/images/cases-study/cases-6.jpg" alt="image" />
                                             </a>
@@ -166,13 +166,13 @@ const CaseStudy = () => {
                                     
                                     <div className="cases-content">
                                         <div className="tags">
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>E-commerce</a>
                                             </Link>
                                         </div>
 
                                         <h3>
-                                            <Link href="/case-study-details">
+                                            <Link href="/industry-details">
                                                 <a>Design and Development for Medical</a>
                                             </Link>
                                         </h3>
