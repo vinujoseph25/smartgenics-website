@@ -111,7 +111,7 @@ const RecentCaseStudy = () => {
 
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a>Ozen Website Design and Development</a>
+                                            <a>Smart Genics Website Design and Development</a>
                                         </Link>
                                     </h3>
                                     <p>Branding just like your personal identity makes you uniquely you, your brand identity is the special sauce of your business that sets.</p>

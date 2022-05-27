@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Link from 'next/link';
 import WorkProcessTwo from '../components/Common/WorkProcessTwo';
@@ -11,7 +11,7 @@ import Footer from '../components/_App/Footer';
 const ServicesTwo = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Services Two" 
@@ -53,7 +53,7 @@ const ServicesTwo = () => {
                                         <a>Digital Marketing</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Smart Genics offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
                                 
                                 <Link href="/services-details">
                                     <a className="services-btn">
@@ -73,7 +73,7 @@ const ServicesTwo = () => {
                                         <a>Design and Development</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Smart Genics offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
 
                                 <Link href="/services-details">
                                     <a className="services-btn">
@@ -93,7 +93,7 @@ const ServicesTwo = () => {
                                         <a>IT Consulting Service</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Smart Genics offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
                                 
                                 <Link href="/services-details">
                                     <a className="services-btn">
@@ -113,7 +113,7 @@ const ServicesTwo = () => {
                                         <a>Cloud Computing</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Smart Genics offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
                                 
                                 <Link href="/services-details">
                                     <a className="services-btn">
@@ -133,7 +133,7 @@ const ServicesTwo = () => {
                                         <a>Domain and Hosting</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
+                                <p>Smart Genics offering you the best digital marketing services to just like your personal identity makes you uniquely you, your brand identity is the special sauce of your to our customer.</p>
                                 
                                 <Link href="/services-details">
                                     <a className="services-btn">

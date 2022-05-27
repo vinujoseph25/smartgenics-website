@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import EventsTime from '../components/EventsDetails/EventsTime';
 import EventSidebar from '../components/EventsDetails/EventSidebar';
@@ -10,7 +10,7 @@ import CTA from '../components/Common/CTA';
 const EventsDetails = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Events Details" 

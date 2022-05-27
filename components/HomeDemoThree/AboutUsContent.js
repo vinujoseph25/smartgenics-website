@@ -26,7 +26,7 @@ const AboutUsContent = () => {
 
                                 <div className="analysis-inner-content">
                                     <img src="/images/analysis/img2.png" alt="image" />
-                                    <p>Ozen digital agency for your start  planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor. Aliquet nam elit nulla</p>
+                                    <p>Smart Genics digital agency for your start  planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor. Aliquet nam elit nulla</p>
                                 </div>
 
                                 <div className="analysis-inner-content">

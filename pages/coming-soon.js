@@ -42,7 +42,7 @@ const ComingSoon = () => {
                         <div className="coming-soon-content">
                             <h1>
                                 <Link href="/">
-                                    <a>Ozen</a>
+                                    <a>Smart Genics</a>
                                 </Link>
                             </h1>
 

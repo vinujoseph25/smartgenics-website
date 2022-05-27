@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarTwo from '../components/_App/NavbarTwo';
+import Navbar from '../components/_App/Navbar';
 import MainBanner from '../components/HomeDemoFive/MainBanner';
 import FeaturesCard from '../components/HomeDemoFive/FeaturesCard';
 import AboutUsContent from '../components/HomeDemoFive/AboutUsContent';
@@ -17,7 +17,7 @@ import Footer from '../components/_App/Footer';
 const IndexPageFive = () => {
     return (
         <>
-            <NavbarTwo />
+            <Navbar />
 
             <MainBanner />
 

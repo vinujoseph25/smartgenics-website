@@ -220,7 +220,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="copyright-area-content">
                             <p>
-                                Copyright © {currentYear} Ozen. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                Copyright © {currentYear} Smart Genics. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
                             </p>
                         </div>
                     </div>

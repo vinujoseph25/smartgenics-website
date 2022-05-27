@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Lightbox from 'react-image-lightbox';
 import Footer from '../components/_App/Footer';
@@ -23,7 +23,7 @@ const Gallery = () => {
 
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Gallery" 

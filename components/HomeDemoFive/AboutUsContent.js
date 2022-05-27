@@ -30,7 +30,7 @@ const AboutUsContent = () => {
 
                                 <div className="about-inner-content">
                                     <img src="/images/about/img2.png" alt="image" />
-                                    <p>Ozen digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
+                                    <p>Smart Genics digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
                                 </div>
 
                                 <div className="about-inner-content">

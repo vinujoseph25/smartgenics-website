@@ -13,7 +13,7 @@ const MainBanner = () => {
                                 <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
                                     <div className="tag">
                                         <img src="/images/main-banner/banner-one/tag-icon.png" alt="image" />
-                                        # Ozen Best Startup Company
+                                        # Smart Genics Best Startup Company
                                     </div>
                                 </ScrollAnimation>
 

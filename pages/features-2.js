@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Link from 'next/link';
 import OurRespectiveClientsTwo from '../components/Common/OurRespectiveClientsTwo';
@@ -9,7 +9,7 @@ import Footer from '../components/_App/Footer';
 const FeaturesTwo = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Features Two" 

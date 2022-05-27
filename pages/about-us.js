@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import FeaturesCard from '../components/HomeDemoOne/FeaturesCard';
@@ -12,7 +12,7 @@ import Faqs from '../components/Common/Faqs';
 const AboutUs = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="About Us" 
@@ -50,7 +50,7 @@ const AboutUs = () => {
 
                                     <div className="about-inner-content">
                                         <img src="/images/about/img2.png" alt="image" />
-                                        <p>Ozen digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
+                                        <p>Smart Genics digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
                                     </div>
 
                                     <div className="about-inner-content">

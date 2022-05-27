@@ -12,7 +12,7 @@ const TechSupport = () => {
 
                         <h3>Lightning-Fast Tech Support, Guaranteed</h3>
                         <p>As a midsize software development company, we combine the best of both worlds. We have the focus and speed of the small IT outsourcing companies along with the scalability and expertise of the big ones.</p>
-                        <span>- Regan Rosen, CEO at Ozen Agency</span>
+                        <span>- Regan Rosen, CEO at Smart Genics Agency</span>
                     </div>
                 </div>
 

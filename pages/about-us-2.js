@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import FeaturesCard from '../components/HomeDemoTwo/FeaturesCard';
 import FunFactStyleTwo from '../components/Common/FunFactStyleTwo';
@@ -12,7 +12,7 @@ import Footer from '../components/_App/Footer';
 const AboutUsTwo = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="About Us Two" 

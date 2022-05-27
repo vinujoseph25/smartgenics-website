@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarThree from '../components/_App/NavbarThree';
+import Navbar from '../components/_App/Navbar';
 import MainBanner from '../components/HomeDemoThree/MainBanner';
 import PartnerStyleThree from '../components/Common/PartnerStyleThree';
 import FeaturesCard from '../components/HomeDemoThree/FeaturesCard';
@@ -18,7 +18,7 @@ import Footer from '../components/_App/Footer';
 const IndexPageThree = () => {
     return (
         <>
-            <NavbarThree />
+            <Navbar />
 
             <MainBanner />
 

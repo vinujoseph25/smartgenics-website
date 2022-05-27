@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ContactForm from '../components/Contact/ContactForm';
 import ContactInfo from '../components/Contact/ContactInfo';
@@ -8,7 +8,7 @@ import Footer from '../components/_App/Footer';
 const ContactPage = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Contact" 

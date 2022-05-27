@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import WorkProcess from '../components/Common/WorkProcess';
 import PricePlansOne from '../components/PricePlans/PricePlansOne';
@@ -10,7 +10,7 @@ import Footer from '../components/_App/Footer';
 const ServicesDetails = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Services Details" 

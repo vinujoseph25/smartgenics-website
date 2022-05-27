@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Link from 'next/link';
 import CTA from '../components/Common/CTA';
@@ -8,7 +8,7 @@ import Footer from '../components/_App/Footer';
 const CaseStudyTwo = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Case Study Two" 
@@ -57,7 +57,7 @@ const CaseStudyTwo = () => {
                                     <div className="projects-content">
                                         <h3>
                                             <Link href="/case-study-details">
-                                                <a>Financial Consulting for Ozen</a>
+                                                <a>Financial Consulting for Smart Genics</a>
                                             </Link>
                                         </h3>
                                         <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auCTAr. Aliquet nam elit nulla eget sodales dui pulvinar.</p>

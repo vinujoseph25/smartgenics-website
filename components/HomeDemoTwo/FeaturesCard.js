@@ -32,7 +32,7 @@ const FeaturesCard = () => {
                                         <a>Research & Development</a>
                                     </Link>
                                 </h3>
-                                <p>Ozen is totally digital technology based creative agency ipsum dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor.</p>
+                                <p>Smart Genics is totally digital technology based creative agency ipsum dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor.</p>
                             </div>
                         </div>
 

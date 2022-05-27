@@ -13,16 +13,16 @@ const MainBanner = () => {
                                 <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
                                     <div className="tag">
                                         <img src="/images/main-banner/banner-two/tag-icon.png" alt="image" />
-                                        # Ozen Best Startup Company
+                                        # Smart Genics Best Startup Company
                                     </div>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={100} animateOnce={true}>
-                                    <h1 className="wow fadeInLeft">Ozen, Best IT Startup Consulting Company</h1>
+                                    <h1 className="wow fadeInLeft">Smart Genics, Best IT Startup Consulting Company</h1>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={150} animateOnce={true}>
-                                    <p>Ozen is a digital marketing agency sit amet consectetur adipiscing elit. Odio at ut tincidunt porttitor molestie aliquet quam cursus. Rhoncus donec libero et volutpat erat posuere sagittis cursus posuere.</p>
+                                    <p>Smart Genics is a digital marketing agency sit amet consectetur adipiscing elit. Odio at ut tincidunt porttitor molestie aliquet quam cursus. Rhoncus donec libero et volutpat erat posuere sagittis cursus posuere.</p>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInRight" delay={150} animateOnce={true}>

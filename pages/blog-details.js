@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import BlogSidebar from '../components/Blog/BlogSidebar';
@@ -7,7 +7,7 @@ import BlogSidebar from '../components/Blog/BlogSidebar';
 const BlogDetails = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Branding Involves Developing Strategy to Create a Point of Differentiation" 

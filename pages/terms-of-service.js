@@ -1,12 +1,12 @@
 import React from 'react';
-import NavbarFour from '../components/_App/NavbarFour';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 
 const TermsOfService = () => {
     return (
         <>
-			<NavbarFour />
+			<Navbar />
 			
 			<PageBanner 
                 pageTitle="Terms of Service" 
@@ -27,7 +27,7 @@ const TermsOfService = () => {
                                 <h3><span>1.</span> Our Website</h3>
                                 <p>Our website address is: http://ozen.com</p>
                                 <blockquote className="blockquote">
-                                    <p>We collect certain data from you directly, like information you enter yourself, data about your participation in courses, and data from third-party platforms you connect with Ozen. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using.</p>
+                                    <p>We collect certain data from you directly, like information you enter yourself, data about your participation in courses, and data from third-party platforms you connect with Smart Genics. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using.</p>
                                 </blockquote>
                                 <h3><span>2.</span> Data You Provide to Us</h3>
                                 <p>We may collect different data from or about you depending on how you use the Services. Below are some examples to help you better understand the data we collect.</p>
