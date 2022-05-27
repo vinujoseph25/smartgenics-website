@@ -11,10 +11,10 @@ const ProfileAuthentication = () => {
 			<Navbar />
 			
 			<PageBanner 
-                pageTitle="Welcome to Smart Genics" 
+                pageTitle="Welcome to SmartGenics" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Welcome to Smart Genics"
+                activePageText="Welcome to SmartGenics"
             /> 
 			 
             <div className="profile-authentication-area ptb-100">

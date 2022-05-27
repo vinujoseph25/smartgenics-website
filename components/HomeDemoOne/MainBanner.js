@@ -12,8 +12,8 @@ const MainBanner = () => {
                             <div className="main-banner-content">
                                 <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
                                     <div className="tag">
-                                        <img src="/images/main-banner/banner-one/tag-icon.png" alt="image" />
-                                        # Smart Genics Best Startup Company
+                                        {/* <img src="/images/main-banner/banner-one/tag-icon.png" alt="image" /> */}
+                                        Transforms your needs Smartly
                                     </div>
                                 </ScrollAnimation>
 
@@ -165,7 +165,7 @@ const MainBanner = () => {
                 .main-banner-content .tag {
                     display: inline-block;
                     background-color: #F4F8FC;
-                    padding: 12px 25px 12px 55px;
+                    padding: 12px 12px 12px 12px;
                     border-radius: 50px;
                     font-size: 14px;
                     font-weight: 500;

@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
  
-                <title>Smart Genics - React Next.js IT Startups Template</title>
+                <title>SmartGenics - React Next.js IT Startups Template</title>
             </Head>
 
             {children}

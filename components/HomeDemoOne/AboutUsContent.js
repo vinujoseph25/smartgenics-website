@@ -24,7 +24,7 @@ const AboutUsContent = () => {
 
                                 <div className="experiences-inner-content">
                                     <img src="/images/experiences/img2.png" alt="image" />
-                                    <p>Smart Genics digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
+                                    <p>SmartGenics digital agency for your start  planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar. Best Strategic planning.</p>
                                 </div>
 
                                 <div className="experiences-inner-content">

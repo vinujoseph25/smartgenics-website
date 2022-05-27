@@ -48,7 +48,7 @@ const RecentCaseStudiesCard = () => {
                                 <div className="projects-content">
                                     <h3>
                                         <Link href="/case-study-details">
-                                            <a>Financial Consulting for Smart Genics</a>
+                                            <a>Financial Consulting for SmartGenics</a>
                                         </Link>
                                     </h3>
                                     <p>Best Strategic planning dolor sit amet consectetur adipiscing elit. Scelerisque amet odio velit eu auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
