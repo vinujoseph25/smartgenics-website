@@ -43,7 +43,7 @@ const Navbar = () => {
                         <nav className="navbar navbar-expand-lg navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/logo.png" width={100} alt="logo" />
+                                    <img src="/images/logo_brand.svg" width={250} alt="logo" />
                                 </a>
                             </Link>
 
