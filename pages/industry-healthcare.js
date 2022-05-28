@@ -18,13 +18,14 @@ const CaseStudyDetails = () => {
             <>
                 <div className="case-details-area ptb-100">
                     <div className="container">
-                        <div className="case-details-image">
+                        {/* <div className="case-details-image">
                             <img src="/images/cases-details/cases-details-1.jpg" alt="image" />
-                        </div>
+                        </div> */}
 
                         <div className="row">
                             <div className="col-lg-9 col-md-12">
                                 <div className="case-details-content">
+                                    <h2>Automation solutions for healthcare</h2>
                                     <h3>Design and Development for IT Startups</h3>
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus elit bibendum adipiscing tincidunt mattis orci consequat egestas mattis. Convallis massa feugiat sapien urna egestas elit vitae, ipsum. In pulvinar urna, viverra quam habitasse blandit eget. Quis semper consectetur sed a purus id ac, auctor. Sem sed eleifend eu iaculis enim.</p>
@@ -51,9 +52,9 @@ const CaseStudyDetails = () => {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-12">
+                            {/* <div className="col-lg-3 col-md-12">
                                 <CaseStudySidebar />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
