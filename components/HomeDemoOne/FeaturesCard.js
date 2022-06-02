@@ -7,78 +7,115 @@ const FeaturesCard = () => {
             <div className="features-area pt-100 pb-70">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a><img src="/images/features/features-1.png" alt="image" /></a>
                                 </Link>
                                
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Strategic Planning</a>
+                                    <Link href="/">
+                                        <a>Overview</a>
                                     </Link>
                                 </h3>
-                                <p>Best Strategic planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
-
-                                <div className="features-btn">
-                                    <Link href="/services-details">
+                                <p>Chart your path to the fully automated enterprise™</p>
+                                {/* <div className="features-btn">
+                                    <Link href="/">
                                         <a className="default-btn">
                                             Read More 
                                             <i className="ri-arrow-right-line"></i>
                                             <span></span>
                                         </a>
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a><img src="/images/features/features-2.png" alt="image" /></a>
                                 </Link>
 
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Research & Development</a>
+                                    <Link href="/">
+                                        <a>Discover</a>
                                     </Link>
                                 </h3>
-                                <p>SmartGenics is totally desigital techonology based creative agency ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor.</p>
+                                <p>Discover automation opportunities powered by AI and your people</p>
 
-                                <div className="features-btn">
-                                    <Link href="/services-details">
-                                        <a className="default-btn">
-                                            Read More 
-                                            <i className="ri-arrow-right-line"></i>
-                                            <span></span>
-                                        </a>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
-                                <Link href="/services-details">
+                                <Link href="/">
                                     <a><img src="/images/features/features-3.png" alt="image" /></a>
                                 </Link>
 
                                 <h3>
-                                    <Link href="/services-details">
-                                        <a>Design & Implimentation</a>
+                                    <Link href="/">
+                                        <a>Build</a>
                                     </Link>
                                 </h3>
-                                <p>Best Strategic planning dolor sit amet, consectetur adipiscing elit. Scelerisque amet odio velit, eu, auctor. Aliquet nam elit nulla eget sodales dui pulvinar.</p>
+                                <p>Build UI + API + AI-powered automations quickly</p>
 
-                                <div className="features-btn">
-                                    <Link href="/services-details">
+                            </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-4 col-sm-6">
+                            <div className="single-features">
+                                <Link href="/">
+                                    <a><img src="/images/features/features-1.png" alt="image" /></a>
+                                </Link>
+                               
+                                <h3>
+                                    <Link href="/">
+                                        <a>Manage</a>
+                                    </Link>
+                                </h3>
+                                <p>Manage, deploy, and optimize automation at enterprise scale</p>
+                                {/* <div className="features-btn">
+                                    <Link href="/">
                                         <a className="default-btn">
                                             Read More 
                                             <i className="ri-arrow-right-line"></i>
                                             <span></span>
                                         </a>
                                     </Link>
-                                </div>
+                                </div> */}
+                            </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-4 col-sm-6">
+                            <div className="single-features">
+                                <Link href="/">
+                                    <a><img src="/images/features/features-2.png" alt="image" /></a>
+                                </Link>
+
+                                <h3>
+                                    <Link href="/">
+                                        <a>Run</a>
+                                    </Link>
+                                </h3>
+                                <p>Run automations with secure robots that work with your applications and data</p>
+
+                            </div>
+                        </div>
+
+                        <div className="col-lg-2 col-md-4 col-sm-6">
+                            <div className="single-features">
+                                <Link href="/">
+                                    <a><img src="/images/features/features-3.png" alt="image" /></a>
+                                </Link>
+
+                                <h3>
+                                    <Link href="/">
+                                        <a>Engage</a>
+                                    </Link>
+                                </h3>
+                                <p>Engage people and robots as one team for seamless process collaboration</p>
+
                             </div>
                         </div>
                     </div>
