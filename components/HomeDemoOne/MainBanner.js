@@ -18,7 +18,7 @@ const MainBanner = () => {
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={100} animateOnce={true}>
-                                    <h1>We Are Here, To Help Your Startup Business</h1>
+                                    <h1>Hello, we're SmartGenics. We automate your workflow, so you don't have to monitor it.</h1>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={150} animateOnce={true}>
