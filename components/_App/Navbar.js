@@ -35,6 +35,8 @@ const Navbar = () => {
     const classOne = menu ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = menu ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
+    console.log('misActiveSidebarModalenu',isActiveSidebarModal)
+    
     return (
         <>
             <div id="navbar" className="navbar-area">
@@ -42,9 +44,14 @@ const Navbar = () => {
                     <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light">
                             <Link href="/">
-                                <a className="navbar-brand">
-                                    <img src="/images/logo_brand.svg" width={250} alt="logo" />
-                                </a>
+                                <div>
+                                    <a className="navbar-brand">
+                                        <img src="/images/logo_brand.svg" width={250} alt="logo" />
+                                    </a>
+                                    <a className="navbar-brand-small">
+                                        <img src="/images/logo_brand_small.svg" width={70} alt="logo" />
+                                    </a>
+                                </div>
                             </Link>
 
                             <button 
@@ -345,7 +352,7 @@ const Navbar = () => {
                             <div className="title">
                                 <Link href="/">
                                     <a className="d-inline-block">
-                                        <img src="/images/logo.png" alt="image" />
+                                        <img src="/images/logo_brand_tagline.svg" alt="image" />
                                     </a>
                                 </Link>
                             </div>
@@ -1320,6 +1327,17 @@ const Navbar = () => {
                     }
                     .main-navbar .navbar .others-options .option-item .default-btn i {
                         display: none;
+                    }
+                }
+
+                @media only screen and (max-width : 990px){
+                    .navbar-brand{
+                        display:none;
+                    }
+                }
+                @media only screen and (min-width : 991px){
+                    .navbar-brand-small{
+                        display:none;
                     }
                 }
             `}</style>

@@ -9,35 +9,6 @@ const Footer = () => {
             <footer className="footer-area pt-100">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-lg-3 col-sm-6 col-md-6">
-                            <div className="single-footer-widget">
-                                <div className="widget-logo">
-                                    <Link href="/">
-                                        <a>
-                                            <img src="/images/logo.png" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-                                <p>Best solution for your it startup business consecteturadipiscing elit. Scelerisque amet odio velit  auctor. nam elit nulla.</p>
-
-                                <ul className="widget-info">
-                                    <li>
-                                        <i className="ri-customer-service-line"></i>
-                                        <a href="tel:3128959800">(312) 895-9800</a>
-                                    </li>
-
-                                    <li>
-                                        <i className="ri-global-line"></i>
-                                        <a href="mailto:hello.me@ozen.com">hello.me@ozen.com</a>
-                                    </li>
-
-                                    <li>
-                                        <i className="ri-map-pin-line"></i>
-                                        121 St, Melbourne VIC 3000, Australia
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
                         <div className="col-lg-2 col-sm-6 col-md-3">
                             <div className="single-footer-widget">
@@ -127,7 +98,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-sm-6 col-md-6">
+                        <div className="col-lg-2 col-sm-6 col-md-3">
                             <div className="single-footer-widget">
                                 <h3>Services</h3>
 
@@ -171,7 +142,51 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-sm-12 col-md-6">
+                        <div className="col-lg-2 col-sm-6 col-md-3">
+                            <div className="single-footer-widget">
+                                <h3>Industries</h3>
+
+                                <ul className="footer-links-list">
+                                    <li>
+                                        <Link href="/services">
+                                            <a href="pricing.html">Services</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/services-details">
+                                            <a>Digital Marketing</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/industries">
+                                            <a>Industries</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/contact">
+                                            <a>Support</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/testimonials">
+                                            <a>Testimonials</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/services-details">
+                                            <a>Cloud Computing</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/features">
+                                            <a>Features</a>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-sm-12 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>Newsletter</h3>
 
