@@ -22,7 +22,9 @@ const MainBanner = () => {
                                 </ScrollAnimation>
 
                                 <ScrollAnimation animateIn="fadeInLeft" delay={150} animateOnce={true}>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio at ut tincidunt porttitor molestie aliquet quam cursus. Rhoncus donec libero et volutpat erat posuere sagittis cursus posuere</p>
+                                    <p>SmartGenics can improve efficiency and productivity, reduce costs and waste and give you greater control over disparate systems.</p>
+                                    <br/>
+                                    <p>Take a few minutes to assess where your business is on that journey. Learn how to go beyond the workflow and help your organization foster greater collaboration, analyze valuable information, and increase integration from Edge to Enterprise.</p>
                                 </ScrollAnimation>
 
                                 <div className="banner-btn">
