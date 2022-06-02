@@ -19,7 +19,7 @@ const CaseStudyDetails = () => {
                 <div className="case-details-area ptb-100">
                     <div className="container">
                         <div className="case-details-image">
-                            <img src="/images/cases-details/cases-details-1.jpg" alt="image" />
+                            <img src="/images/industry-details/cases-details-1.jpg" alt="image" />
                         </div>
 
                         <div className="row">
@@ -43,11 +43,11 @@ const CaseStudyDetails = () => {
                                 </div>
 
                                 <div className="case-details-overview-image">
-                                    <img src="/images/cases-details/cases-details-2.jpg" alt="image" />
+                                    <img src="/images/industry-details/cases-details-2.jpg" alt="image" />
                                 </div>
 
                                 <div className="case-details-overview-image">
-                                    <img src="/images/cases-details/cases-details-3.jpg" alt="image" />
+                                    <img src="/images/industry-details/cases-details-3.jpg" alt="image" />
                                 </div>
                             </div>
 

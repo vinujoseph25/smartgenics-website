@@ -17,7 +17,7 @@ const RecentCaseStudy = () => {
                                 <div className="cases-image">
                                     <Link href="/industry-details">
                                         <a>
-                                            <img src="/images/cases-study/cases-1.jpg" alt="image" />
+                                            <img src="/images/industries/cases-1.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -45,7 +45,7 @@ const RecentCaseStudy = () => {
                                 <div className="cases-image">
                                     <Link href="/industry-details">
                                         <a>
-                                            <img src="/images/cases-study/cases-2.jpg" alt="image" />
+                                            <img src="/images/industries/cases-2.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -72,7 +72,7 @@ const RecentCaseStudy = () => {
                                 <div className="cases-image">
                                     <Link href="/industry-details">
                                         <a>
-                                            <img src="/images/cases-study/cases-3.jpg" alt="image" />
+                                            <img src="/images/industries/cases-3.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -97,7 +97,7 @@ const RecentCaseStudy = () => {
                                 <div className="cases-image">
                                     <Link href="/industry-details">
                                         <a>
-                                            <img src="/images/cases-study/cases-4.jpg" alt="image" />
+                                            <img src="/images/industries/cases-4.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -133,25 +133,25 @@ const RecentCaseStudy = () => {
 
                 {/* Shape Images */}
                 <div className="cases-shape-1">
-                    <img src="/images/cases-study/shape-1.png" alt="image" />
+                    <img src="/images/industries/shape-1.png" alt="image" />
                 </div>
                 <div className="cases-shape-2">
-                    <img src="/images/cases-study/shape-2.png" alt="image" />
+                    <img src="/images/industries/shape-2.png" alt="image" />
                 </div>
                 <div className="cases-shape-3">
-                    <img src="/images/cases-study/shape-3.png" alt="image" />
+                    <img src="/images/industries/shape-3.png" alt="image" />
                 </div>
                 <div className="cases-shape-4">
-                    <img src="/images/cases-study/shape-4.png" alt="image" />
+                    <img src="/images/industries/shape-4.png" alt="image" />
                 </div>
                 <div className="cases-shape-5">
-                    <img src="/images/cases-study/shape-5.png" alt="image" />
+                    <img src="/images/industries/shape-5.png" alt="image" />
                 </div>
                 <div className="cases-shape-6">
-                    <img src="/images/cases-study/shape-4.png" alt="image" />
+                    <img src="/images/industries/shape-4.png" alt="image" />
                 </div>
                 <div className="cases-shape-7">
-                    <img src="/images/cases-study/shape-5.png" alt="image" />
+                    <img src="/images/industries/shape-5.png" alt="image" />
                 </div>
             </div>
 
