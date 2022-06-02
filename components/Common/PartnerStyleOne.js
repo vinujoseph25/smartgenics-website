@@ -51,43 +51,43 @@ const PartnerStyleOne = () => {
                             {...options}
                         > 
                             <div className="single-partner">
-                                <img src="/images/partner/partner-1.png" alt="image" />
+                                <img src="/images/partner/react.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-2.png" alt="image" />
+                                <img src="/images/partner/nodejs.svg" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-3.png" alt="image" />
+                                <img src="/images/partner/nextjs.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-4.png" alt="image" />
+                                <img src="/images/partner/dotnet.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-5.png" alt="image" />
+                                <img src="/images/partner/python.png" alt="image" />
                             </div>
 
                             <div className="single-partner">
-                                <img src="/images/partner/partner-1.png" alt="image" />
+                                <img src="/images/partner/mqtt.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-2.png" alt="image" />
+                                <img src="/images/partner/mongodb.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-3.png" alt="image" />
+                                <img src="/images/partner/docker.webp" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-4.png" alt="image" />
+                                <img src="/images/partner/nginx.png" alt="image" />
                             </div>
         
                             <div className="single-partner">
-                                <img src="/images/partner/partner-5.png" alt="image" />
+                                <img src="/images/partner/pm2.png" alt="image" />
                             </div>
                         </OwlCarousel> : ''}
                     </div>
