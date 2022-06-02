@@ -34,7 +34,8 @@ This files table contents are outlined below>>>>>
 ** - Footer Area CSS
 */
 :root {
-  --main-font-family: 'Inter', sans-serif;
+  /* --main-font-family: 'Inter', sans-serif; */
+  --main-font-family: 'Roboto Serif', serif;
   --main-color: #0064FB;
   --optional-color: #FF414B;
   --main-gradient-color: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
