@@ -166,7 +166,7 @@ const MainBanner = () => {
                 }
                 .main-banner-content .tag {
                     display: inline-block;
-                    background-color: #F4F8FC;
+                    background-color: #c4e2ff;
                     padding: 12px 12px 12px 12px;
                     border-radius: 50px;
                     font-size: 14px;
@@ -181,7 +181,6 @@ const MainBanner = () => {
                             transform: translateY(-50%);
                 }
                 .main-banner-content h1 {
-                    font-size: 60px;
                     margin-top: 30px;
                     margin-bottom: 20px;
                     font-weight: bold;

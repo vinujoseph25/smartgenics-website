@@ -89,6 +89,10 @@ const PartnerStyleOne = () => {
                             <div className="single-partner">
                                 <img src="/images/partner/pm2.png" alt="image" />
                             </div>
+
+                            <div className="single-partner">
+                                <img src="/images/partner/azure.png" alt="image" />
+                            </div>
                         </OwlCarousel> : ''}
                     </div>
                 </div>
@@ -109,7 +113,6 @@ const PartnerStyleOne = () => {
                     z-index: 1;
                 }
                 .partner-box {
-                    background-color: #F4F8FC;
                     padding-top: 70px;
                     padding-bottom: 70px;
                     padding-left: 50px;

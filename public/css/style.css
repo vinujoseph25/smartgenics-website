@@ -35,7 +35,7 @@ This files table contents are outlined below>>>>>
 */
 :root {
   /* --main-font-family: 'Inter', sans-serif; */
-  --main-font-family: 'Roboto Serif', serif;
+  --main-font-family: 'Roboto', sans-serif;
   --main-color: #0064FB;
   --optional-color: #FF414B;
   --main-gradient-color: linear-gradient(90deg, rgba(255, 65, 76, 0.96) 0%, #FF8760 100%);
@@ -422,9 +422,16 @@ img {
   right: -20px;
 }
 
+.single-features{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 .single-features img {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  width: 50%;
 }
 
 .single-features:hover img {
@@ -438,7 +445,15 @@ img {
 
 .single-features-box:hover img {
   -webkit-animation: bounceIn 1s;
-          animation: bounceIn 1s;
+  animation: bounceIn 1s;
+}
+
+.single-features p {
+width: 140px;
+margin-bottom: 15px;
+color: var(--paragraph-color);
+font-weight: 400;
+font-size: var(--font-size);
 }
 
 .features-shape-1 {

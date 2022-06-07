@@ -66,7 +66,7 @@ const FeaturesCard = () => {
                         <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
                                 <Link href="/">
-                                    <a><img src="/images/features/features-1.png" alt="image" /></a>
+                                    <a><img src="/images/features/features-4.png" alt="image" /></a>
                                 </Link>
                                
                                 <h3>
@@ -90,7 +90,7 @@ const FeaturesCard = () => {
                         <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
                                 <Link href="/">
-                                    <a><img src="/images/features/features-2.png" alt="image" /></a>
+                                    <a><img src="/images/features/features-5.png" alt="image" /></a>
                                 </Link>
 
                                 <h3>
@@ -106,7 +106,7 @@ const FeaturesCard = () => {
                         <div className="col-lg-2 col-md-4 col-sm-6">
                             <div className="single-features">
                                 <Link href="/">
-                                    <a><img src="/images/features/features-3.png" alt="image" /></a>
+                                    <a><img src="/images/features/features-6.png" alt="image" /></a>
                                 </Link>
 
                                 <h3>
@@ -153,7 +153,7 @@ const FeaturesCard = () => {
                     transition: var(--transition);
                 }
                 .single-features h3 {
-                    font-size: 25px;
+                    font-size: 20px;
                     margin-top: 30px;
                     margin-bottom: 15px;
                 }
